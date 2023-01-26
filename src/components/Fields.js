@@ -8,8 +8,8 @@ const Fields = ({
   return (
     <View style={{display: 'flex', flexDirection: 'row'}}>
       <View style={{display: 'flex', flexDirection: 'column', padding: '8px 10px 0 10px'}}>
-        <View style={{display: 'flex', flexDirection: 'row'}}>
-          <Text style={{fontSize: '10px'}}>{title}</Text>
+        <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center', }}>
+          <Text style={{fontSize: '8px'}}>{title}</Text>
           <Text style={{marginLeft: '10px', fontSize: '13px', fontWeight: 'bold'}}>{text}</Text>
         </View>
         <View style={{backgroundColor: '#000', height: '1px', width: `${lineWidth}px`}}></View>

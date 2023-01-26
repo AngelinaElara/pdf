@@ -6,11 +6,11 @@ const RadioFields = ({
   text
 }) => {
   return (
-    <View style={{display: 'flex', flexDirection: 'row', alignItems: 'center', marginLeft: '10px'}}>
-      <Image src={circle} style={{width: '20px', height: '20px'}}/>
-      <View style={{display: 'flex', flexDirection: 'column', margin: '10px 0 0 2px'}}>
+    <View style={{display: 'flex', flexDirection: 'row', marginLeft: '10px'}}>
+      <Image src={circle} style={{width: '10px', height: '10px', transform: 'translateY(13%)'}}/>
+      <View style={{display: 'flex', flexDirection: 'column', margin: '10px 0 0 5px'}}>
         <View style={{display: 'flex', flexDirection: 'row'}}>
-          <Text style={{fontSize: '10px'}}>{title}</Text>
+          <Text style={{fontSize: '8px'}}>{title}</Text>
           <Text style={{marginLeft: '10px', fontSize: '13px', fontWeight: 'bold'}}>{text}</Text>
         </View>
       <View style={{backgroundColor: '#000', height: '1px', width: '150px', marginTop: '3px'}}></View>
