@@ -192,7 +192,7 @@ const MyDoc = () => (
         <View style={{display: 'flex', alignItems: 'start', marginLeft: '10px'}}>
           <View style={{backgroundColor: '#d2d2d2', height: '1px', width: '97%', marginTop: '25px'}}></View>
         </View>
-        <View style={{flexDirection: 'row', marginTop: '10px'}}>
+        <View style={{flexDirection: 'row', marginTop: '15px'}}>
           <View style={styles.section}>
             <Fields title={'Firma Locatore:'} text={''} lineWidth={250}/>
           </View>
@@ -201,7 +201,7 @@ const MyDoc = () => (
           </View>
         </View>
       </View>
-      <Text style={{marginTop: '15px', color: '#a4a4a4', textAlign: 'center', fontSize: '8px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</Text>
+      <Text style={{marginTop: '20px', color: '#a4a4a4', textAlign: 'center', fontSize: '8px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</Text>
     </Page>
   </Document>
 )
